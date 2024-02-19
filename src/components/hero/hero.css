@@ -1,0 +1,179 @@
+.hero-section{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hero-section .hero-content {
+    height: 680px;
+    min-width: 100vw;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9rem;
+    color: #fff;
+}
+
+.hero-section .hero-content .agent-bg-wrapper{
+    height: 900px;
+    width: 532px;
+    background-size: cover;
+    background-position: center 1.75rem;
+    margin-left: -4rem;
+}
+
+.hero-section .hero-content .agent-info{
+    width: 18rem;
+    filter: drop-shadow(5px 15px 1rem #18181895);
+    -webkit-filter: drop-shadow(5px 15px 1rem #18181895);
+}
+
+.hero-section .hero-content .agent-info .role-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.hero-section .hero-content .agent-info .role-wrapper h1{
+    font-size: 4rem;
+}
+
+.hero-section .hero-content .agent-info .role-wrapper .role-icon{
+    width:auto;
+    height: 3rem;
+}
+
+
+.hero-section .hero-content .header-info{
+    width: 15rem;
+}
+
+.hero-section .hero-content .agent-info h1{
+    font-size: 6rem;
+}
+
+.hero-section .hero-content.agent-page{
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	-webkit-animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.hero-section .img-container{
+    position: absolute;
+    left: 0;
+    height: 756px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section .img-container #agentArt{
+    transition: all ease-in-out .025s;
+    -webkit-transition: all ease-in-out .025s;
+    -moz-transition: all ease-in-out .025s;
+    -ms-transition: all ease-in-out .025s;
+    -o-transition: all ease-in-out .025s;
+    filter: drop-shadow(5px 15px 1rem #18181895);
+    -webkit-filter: drop-shadow(5px 15px 1rem #18181895);
+}
+
+@media screen and (max-width: 900px){
+    .hero-section{
+        height: 136vh;
+        overflow: visible;
+    }
+
+    .hero-section .hero-content {
+        height: 800px;
+    }
+
+    .hero-section .img-container{
+        height: 960px;
+    }
+
+    .hero-section .hero-content {
+        display: block;
+        padding: 0;
+    }
+
+    .hero-section .hero-content .agent-bg-wrapper{
+        height: 1000px;
+        width: 100vw;
+        margin-left: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -9rem;
+    }
+
+    .hero-section .hero-content .agent-info{
+        width: 100vw;
+        padding: 0 3rem;
+        margin-top: 7rem;
+        color: var(--valo-dark);
+        filter: none;
+        -webkit-filter: none;
+        text-align: justify;
+    }
+    
+    .hero-section .hero-content .agent-info .role-wrapper .role-icon{
+        filter: brightness(.15);
+        -webkit-filter: brightness(.15);
+    }
+}
+
+@media screen and (max-width: 800px){
+    .hero-section .img-container{
+        height: 1024px;
+    }
+    .hero-section .hero-content .agent-info{
+        margin-top: 16rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-section{
+        height: 180vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero-section .img-container{
+        height: 840px;
+    }
+    .hero-section .hero-content .agent-bg-wrapper{
+        height: 900px;
+        width: 100vw;
+        margin-left: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -2rem;
+    }
+    .hero-section .hero-content .agent-info{
+        margin-top: 10rem;
+        color: var(--valo-dark);
+        filter: none;
+        -webkit-filter: none;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero-section{
+        height: 215vh;
+    }
+}

@@ -1,0 +1,44 @@
+.footer {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6ecd185638a306d0/659ba683c4b620170cfb8d63/Ep8a1_Defiance_Playval.com_Act_Overview_banner_3440x1020_Darkbg.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-content {
+  width: 40%;
+  height: auto;
+  text-align: justify;
+  color: #fff;
+}
+
+.footer .footer-content h1 {
+  font-size: 7.1rem;
+}
+
+.footer .footer-content p {
+  width: 80%;
+}
+
+.footer .footer-content p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer .footer-content p a:hover {
+  color: var(--valo-red);
+}
+
+.copyright {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--valo-dark);
+  color: var(--valo-red);
+  font-weight: 700;
+}

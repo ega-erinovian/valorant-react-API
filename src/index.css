@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+@font-face {
+  font-family: "Tungsten";
+  src: url("Tungsten-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* Color Scheme */
+  --valo-darker: #091017;
+  --valo-dark: #0f1923;
+  --valo-red: #ff4655;
+  --valo-dark-red: #cf3f4b;
+  --valo-white: #f9f6ee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Tungsten", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
