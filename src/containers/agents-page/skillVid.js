@@ -399,6 +399,28 @@ export const agentsSkillData = [
       },
     ],
   },
+  // Clove
+  {
+    uuid: "1dbf2edd-4729-0984-3115-daa5eed44993",
+    skills: [
+      {
+        name: "PICK ME UP",
+        link: "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3df1c519f4a86de5/65fde16ad05755d4790002f4/2024-03-04_Clove_C_ClovePOV.mp4",
+      },
+      {
+        name: "RUSE",
+        link: "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc0399e2ec5c335b5/65fde12e6f3127257b94e883/2024-03-05_Clove_E_Dead_ClovePOV.mp4",
+      },
+      {
+        name: "NOT DEAD YET",
+        link: "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfe8f4bb04ccb3129/65fde06d18db086a940048be/2024-03-04_Clove_X_1.mp4",
+      },
+      {
+        name: "MEDDLE",
+        link: "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7cff89157771078a/65fde0d63caa5740dccfb918/2024-03-05_Clove_Q_ClovePOV.mp4",
+      },
+    ],
+  },
   // Neon
   {
     uuid: "bb2a4828-46eb-8cd1-e765-15848195d751",

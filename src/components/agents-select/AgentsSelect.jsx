@@ -14,16 +14,6 @@ const AgentsSelect = () => {
     });
   }, []);
 
-  let agentIndex = null;
-
-  if (currentURL[4]) {
-    agentIndex = agents
-      .map((agent) => {
-        return agent.uuid;
-      })
-      .indexOf(currentURL[4]);
-  }
-
   return (
     <section className="select-agents">
       <h1>SELECT AN AGENT</h1>
